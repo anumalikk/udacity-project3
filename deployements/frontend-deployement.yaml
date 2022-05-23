@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: anumalikk/udagram-frontend:v6
+        image: anumalikk/udagram-frontend:v7
         imagePullPolicy: Always
         livenessProbe:
             initialDelaySeconds: 120
